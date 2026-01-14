@@ -16,7 +16,7 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <div class="mt-5 flex flex-wrap justify-center items-center text-center">
+    <div className="mt-5 flex flex-wrap justify-center items-center text-center">
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{ max: 45, scale: 1, speed: 450 }}
@@ -28,7 +28,7 @@ const ProjectCard = ({
             alt={name}
             className="w-full h-full object-cover rounded-2xl shadow-[#00ECFE]/20 text-center"
           />
-          <div class="mt-5 flex flex-wrap justify-center  ">
+          <div className="mt-5 flex flex-wrap justify-center  ">
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover rounded-2xl">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
@@ -63,7 +63,7 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <div class="mt-5 flex flex-wrap justify-center text-center items-center">
+      <div className="mt-5 flex flex-wrap justify-center text-center items-center">
       <motion.div variants={textVariant()}>
         <h2 className={styles.sectionHeadText}>Manzel Community.</h2>
         <p className={styles.sectionSubText}> Our daily Blogs and players "Student" works join us/ <span className=" text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-white" >
@@ -73,7 +73,7 @@ const Works = () => {
       </motion.div>
       </div>
       
-      <div class="mt-5 flex flex-wrap justify-center items-center text-center ">
+      <div className="mt-5 flex flex-wrap justify-center items-center text-center ">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[18x] max-w-3xl leading-[30px]"
@@ -82,7 +82,7 @@ const Works = () => {
         </motion.p>
         
       </div>
-      <div class="mt-7 flex flex-wrap justify-center  gap-10">
+      <div className="mt-7 flex flex-wrap justify-center  gap-10">
       <a
           href="https://discord.gg/xBC5v8gYk6"
           id="button-secondry"
