@@ -19,7 +19,7 @@ const ProjectCard = ({
   image,n
 }) => {
   return (
-    <div class="mt-0 flex justify-evenly items-center flex-col">
+    <div className="mt-0 flex justify-evenly items-center flex-col">
      <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}> 
       <Tilt
          options={{ rotate: 180 , speed: 1000 }}
@@ -53,7 +53,7 @@ const ProjectCard = ({
 const Ourteam = () => {
   return (
     <>
-       <div class="sm-5 flex flex-wrap justify-center items-center text-center">
+       <div className="sm-5 flex flex-wrap justify-center items-center text-center">
       <motion.div variants={textVariant()}>
         <h2 className={styles.sectionHeadText}>Team Leaders</h2>
         <p className={styles.sectionSubText}><span className=" text-transparent  text-[25px] bg-clip-text bg-gradient-to-r from-cyan-400 to-white" >
@@ -73,7 +73,7 @@ const Ourteam = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
-      {/* <div class="mt-5 flex flex-wrap justify-center">
+      {/* <div className="mt-5 flex flex-wrap justify-center">
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}><span className="text-transparent text-bold  text-[25px] bg-clip-text bg-gradient-to-r from-cyan-400 to-white" >
           OUR ADVISORY 
