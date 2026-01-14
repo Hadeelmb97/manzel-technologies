@@ -39,7 +39,7 @@ const About = () => {
   return (
     <>
       
-      <div class="mt-3 flex flex-wrap justify-center items-center">
+      <div className="mt-3 flex flex-wrap justify-center items-center">
       <motion.div variants={textVariant()}>
       <h2 className={styles.sectionHeadText}>About.</h2>
         <p className={styles.sectionSubText}>Who We Are?</p>
@@ -48,7 +48,7 @@ const About = () => {
       
       </div> 
      
-      <div class="mt-0 text-slate-300	flex text-[18px] flex-wrap justify-center text-center items-center ">
+      <div className="mt-0 text-slate-300	flex text-[18px] flex-wrap justify-center text-center items-center ">
        <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-0 text-secondary text-[ 18px-center max-w-4xl leading-[30px]"
@@ -66,7 +66,7 @@ const About = () => {
         
         
       </div>
-      <div class="mt-10 flex flex-wrap justify-center items-center ">
+      <div className="mt-10 flex flex-wrap justify-center items-center ">
       <motion.div variants={textVariant()}>
       <h2 className={styles.sectionHeadText}>Our Vision & Goals.</h2>
         <p className={styles.sectionSubText}>what we want to Acheive?</p>
@@ -74,7 +74,7 @@ const About = () => {
        
       </motion.div>
       </div> 
-      <div class="mt-10 text-slate-300	flex text-[18px] flex-wrap justify-center text-center leading-[50px] ">
+      <div className="mt-10 text-slate-300	flex text-[18px] flex-wrap justify-center text-center leading-[50px] ">
        <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-0 text-secondary text-[ 18px-center max-w-4xl leading-[30px]"
