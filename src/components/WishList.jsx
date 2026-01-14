@@ -38,7 +38,7 @@ const WishList = () => {
   return (
     <>
       
-      <div class="mt-10 flex flex-wrap justify-center items-center text-center">
+      <div className="mt-10 flex flex-wrap justify-center items-center text-center">
       <motion.div variants={textVariant()}>
       <h2 className={styles.sectionHeadText}>WishList.</h2>
         <p className={styles.sectionSubText}>Want to be the one of the alpha tester for our game?</p>
