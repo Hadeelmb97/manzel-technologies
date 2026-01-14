@@ -20,7 +20,7 @@ import {
   Aboutcopy,
   Article,
   Livethemoment,
-  knowmore,
+  Knowmore,
   Intro,
   Play,
   Collaborative,
@@ -64,7 +64,7 @@ const App = () => {
         <AwardsD/>
         {/* <Article /> */}
         
-        <knowmore/>
+        <Knowmore/>
 
 
           {/* <WishList /> */}
