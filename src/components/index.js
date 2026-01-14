@@ -19,7 +19,7 @@ import WishList from "./WishList";
 import Aboutcopy from "./Aboutcopy";
 import Article from "./Article";
 import Livethemoment from "./Livethemoment";
-import knowmore from "./knowmore";
+import Knowmore from "./knowmore";
 import Intro from "./Intro";
 import Collaborative from "./Collaborative";
 import Play from "./Play";
@@ -51,7 +51,7 @@ export {
   Aboutcopy,
   Play,
   Livethemoment,
-  knowmore,
+  Knowmore,
  Collaborative,
   Article,
   Footer,
