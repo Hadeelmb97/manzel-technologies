@@ -16,7 +16,7 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <div class="mt-0 flex flex-wrap justify-center">
+    <div className="mt-0 flex flex-wrap justify-center">
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{ max: 45, scale: 1, speed: 450 }}
@@ -24,7 +24,7 @@ const ProjectCard = ({
           <div className="relative w-full h-[380px] rounded-[15px] justify-center ">
            <div className="relative w-full h-[380px] rounded-[15px] ">
           
-            <iframe width="100%" height="100%" src="https://www.youtube.com/shorts/17DpCkJAvWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/shorts/17DpCkJAvWE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen="">
 
            </iframe>
            </div>
@@ -33,11 +33,11 @@ const ProjectCard = ({
           
         {/* <div className="relative w-full h-[500px]  rounded-[20px] ">
           {/* <img
-            src="https://www.youtube.com/embed/ZH-GAc9tw1w"frameborder="0"
+            src="https://www.youtube.com/embed/ZH-GAc9tw1w"frameBorder="0"
             alt={name}
             className="w-full h-full object-cover rounded-2xl"
           /> */}
-          {/* <div class="mt-0 flex flex-wrap justify-center  "> */}
+          {/* <div className="mt-0 flex flex-wrap justify-center  "> */}
           {/* <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
@@ -71,7 +71,7 @@ const ProjectCard = ({
 const knowmore = () => {
   return (
     <>
-      <div class="mt-5 flex flex-wrap justify-center">
+      <div className="mt-5 flex flex-wrap justify-center">
       <motion.div variants={textVariant()}>
         
         {/* <p className={styles.sectionSubText}> Our daily Blogs and players "Student" works -comming soon-!!</p> */}
