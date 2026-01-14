@@ -16,7 +16,7 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <div class="mt-0 flex flex-wrap justify-center">
+    <div className="mt-0 flex flex-wrap justify-center">
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{ max: 45, scale: 1, speed: 450 }}
@@ -28,7 +28,7 @@ const ProjectCard = ({
             alt={name}
             className="w-full h-full object-cover rounded-2xl"
           />
-          <div class="mt-0 flex flex-wrap justify-center  ">
+          <div className="mt-0 flex flex-wrap justify-center  ">
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
@@ -62,7 +62,7 @@ const ProjectCard = ({
 const Features = () => {
   return (
     <>
-      <div class="mt-5 flex flex-wrap justify-center">
+      <div className="mt-5 flex flex-wrap justify-center">
       <motion.div variants={textVariant()}>
         
         {/* <p className={styles.sectionSubText}> Our daily Blogs and players "Student" works -comming soon-!!</p> */}
