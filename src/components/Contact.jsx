@@ -128,7 +128,7 @@ const Contact = () => {
           <div className="relative w-full h-[380px] rounded-[15px] justify-center ">
            <div className="bg-#070713 p-5 rounded-[20px] sm:w-[300px] w-full border-x-1 border-b-2 border-cyan-300 shadow-[#00ECFE]/20 full p-[10px]  shadow-card center p-5  sm:w-[500px] w-full>  ">
           
-            <video class="elementor-video" src="https://icity3d.com/wp-content/uploads/2024/05/buildings-.mov" autoplay="" loop="" muted="muted" controlslist="nodownload"></video>
+            <video className="elementor-video" src="https://icity3d.com/wp-content/uploads/2024/05/buildings-.mov" autoPlay="" loop="" muted="muted" controlsList="nodownload"></video>
            </div>
          </div>
         
