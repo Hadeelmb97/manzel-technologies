@@ -19,7 +19,7 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <div class="mt-1 flex flex-wrap justify-center items-center text-center gap-4">
+    <div className="mt-1 flex flex-wrap justify-center items-center text-center gap-4">
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{ max: 45, scale: 1, speed: 450 }}
@@ -31,7 +31,7 @@ const ProjectCard = ({
             alt={name}
             className="w-full h-full object-cover rounded-2xl shadow-[#00ECFE]/20 text-center gap-4"
           />
-          <div class="mt-1 flex flex-wrap justify-center gab-30 ">
+          <div className="mt-1 flex flex-wrap justify-center gab-30 ">
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover rounded-2xl gab-200">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
@@ -66,7 +66,7 @@ const ProjectCard = ({
 const Article = () => {
   return (
     <>
-      <div class="mt-5 flex flex-wrap justify-center text-center items-cente justify-center gab-30">
+      <div className="mt-5 flex flex-wrap justify-center text-center items-cente justify-center gab-30">
       <motion.div variants={textVariant()}>
         {/* <h2 className={styles.sectionHeadText}>Manzel Articles.</h2> */}
         {/* <p className={styles.sectionSubText}> Our daily Blogs and players "Student" works join us/ <span className=" text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-white" >
@@ -76,7 +76,7 @@ const Article = () => {
       </motion.div>
       </div>
       
-      <div class="mt-1 bg-hero bg-cover bg-no-repeat bg-center bg-shadow-[#67e8f9]/20 leading-[1px] gab-100">
+      <div className="mt-1 bg-hero bg-cover bg-no-repeat bg-center bg-shadow-[#67e8f9]/20 leading-[1px] gab-100">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[18x] max-w-3xl leading-[0px]"
@@ -86,7 +86,7 @@ const Article = () => {
         </motion.p>
         
       </div>
-      <div class="mt-1 flex flex-wrap justify-center  gab-50">
+      <div className="mt-1 flex flex-wrap justify-center  gab-50">
       <a
           href="https://www.linkedin.com/company/akin-manzel/"
           id="button-secondry"
