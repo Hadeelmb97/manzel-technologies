@@ -29,7 +29,7 @@ import { fadeIn, textVariant } from "../utils/motion";
           
     //       </motion.div>
     
-    <div class="mt-1 bg-hero-footer bg-cover bg-no-repeat bg-center bg-shadow-[#67e8f9]/50 leading-[10px]">
+    <div className="mt-1 bg-hero-footer bg-cover bg-no-repeat bg-center bg-shadow-[#67e8f9]/50 leading-[10px]">
       
       
      
