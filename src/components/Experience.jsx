@@ -59,7 +59,7 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
     <>
-      <div class="mt-0 flex flex-wrap justify-center items-center text-center ">
+      <div className="mt-0 flex flex-wrap justify-center items-center text-center ">
       <motion.div variants={textVariant()}>
         
         <h2 className={styles.sectionHeadText}>Roadmap.</h2>
