@@ -1,5 +1,0 @@
-#programming files with build files#
-#To run the website localy you have to do theses steps:
-###   npm install --legacy-peer-deps
-###   npm run build 
-###   npx vite 
